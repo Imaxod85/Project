@@ -50,8 +50,8 @@ function draw() {
   
    
   // mettre le background dans draw
-   
-   for (let bb = 1; bb<200; bb++){
+   //bb je l'ai mis jusqu`à 200 initialement
+   for (let bb = 1; bb<300; bb++){
      let x1 = rad*cos(bb*360/ang * Math.PI/180);
      let y1 = rad*sin(bb*360/ang * Math.PI/180);
      let x2 = rad*cos((mult*bb%ang)*360/ang * Math.PI/180);
