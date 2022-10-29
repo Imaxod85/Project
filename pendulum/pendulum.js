@@ -11,7 +11,9 @@ const g = 9.81;
 
 let dt = 0.1;
 
-let kf=0;
+
+let kf = Number(prompt("frottements ? (entre 0 et 1) : "));
+//let kf=0;
 
 
 
